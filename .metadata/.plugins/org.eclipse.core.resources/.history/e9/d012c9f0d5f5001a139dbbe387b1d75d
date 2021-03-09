@@ -1,0 +1,11 @@
+package com.demo.inter.linkedlist;
+
+public class Node {
+	int data;
+	Node next;
+	Node last;
+
+	Node(int d) {
+		data = d;
+	}
+}

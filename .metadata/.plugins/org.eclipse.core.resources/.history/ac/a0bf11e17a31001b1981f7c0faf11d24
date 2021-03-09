@@ -1,0 +1,26 @@
+package com.inter.design.iterator;
+
+public class CustomCollection implements Contrainer {
+	public String name[]={"Ashwani Rajput", "Soono Jaiswal","Rishi Kumar","Rahul Mehta","Hemant Mishra"};
+
+	@Override
+	public Iterator getIterator() {
+		return new IteratorImpl();
+	} 
+	
+	private class IteratorImpl implements Iterator {
+
+		@Override
+		public boolean hasnExt() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		@Override
+		public Object next() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+	}
+}

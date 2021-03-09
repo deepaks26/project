@@ -1,0 +1,14 @@
+package com.demo.inter.linkedlist;
+
+public class CircularLinkedList {
+
+	public static void main(String[] args) {
+		Node last =  null;
+		//last  = addToEmpty(last,1);
+	}
+	
+	static Node addToEmpty(Node last,int 1){
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.demo.inter.bst;
+
+import java.util.List;
+
+public class FindEleFromRootToNthPract {
+
+	static class Node{
+		int data;
+		Node left;
+		Node right;
+		
+		Node(int data){
+			this.data = data;
+		}
+	}
+	Node root;
+	
+	static boolean findElement(Node root, List<Integer> list,int key) {
+		if(root==null) {
+			return false;
+		}
+		list.add(root.data);
+		if(root.data==key) {
+			return true;
+		}
+		
+	}
+}

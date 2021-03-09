@@ -1,0 +1,13 @@
+package com.inter.quick;
+
+public class QuickSort {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	static void quickSort() {
+		
+	}
+}
+

@@ -1,0 +1,6 @@
+package com.inter.design.decoratorpract2;
+
+public class DataSoruceFactoryProvider {
+
+	static Map<String,Abs>
+}

@@ -1,0 +1,66 @@
+package com.demo.inter.linkedlist.fromtechidelite;
+
+import com.demo.inter.linkedlist.fromtechidelite.InsertAtSortedPosition.Node;
+
+public class SortLinkedList {
+
+	static class Node{
+		int data;
+		Node next;
+		Node(int data){
+			this.data = data;
+		}
+	}
+	
+	staticNode sortLinkedList(Node head){
+		Node result = null;
+		 Node temp = head;
+		while(temp != null) {
+			insertAtSorted(result,temp.data);
+			temp = temp.next;
+		}
+		return result;
+	}
+
+	private void insertAtSorted(Node result, int data) {
+		if(result == null) {
+			result = new Node(data);
+		}else if(result.next==null) {
+			if(data>result.data) {
+				result.next = new Node(data);
+			}else {
+				Node newNode = new Node(data);
+				newNode.next = result;
+				result = newNode;
+			}
+		}else {
+			Node temp = result;
+			while(temp.next != null) {
+				if(temp.next.data > data) {
+					Node newNode = new Node(data);
+					newNode.next = temp.next;
+					temp.next = newNode;
+					break;
+				}else {
+					temp= temp.next;
+				}
+			}
+		}
+	}
+	
+	static void print(Node head) {
+		Node temp = head;
+		while(temp != null) {
+			System.out.print(temp.data + " ");
+			temp = temp.next;
+		}
+	}
+	public static void main(String[] args) {
+		Node head = new Node(1);
+		head.next = new Node(2);
+		head.next.next = new Node(4);
+		head.next.next.next = new Node(3);
+		sortLinkedList(head);
+		print(head);
+	}
+}

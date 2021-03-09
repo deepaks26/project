@@ -1,0 +1,9 @@
+
+package com.inter.insertionsort;
+
+public class InsertionSortPract {
+
+	static void sort(int arr[]) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package com.inter.design.chainofresppract1;
+
+public class ErrorLog extends AbstractLogger {
+
+	@Override
+	protected void write() {
+
+	}
+
+}

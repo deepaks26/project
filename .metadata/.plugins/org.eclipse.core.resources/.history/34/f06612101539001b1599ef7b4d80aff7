@@ -1,0 +1,8 @@
+package com.inter.blockqueu;
+
+public class BlockQuApp {
+
+	public static void main(String[] args) {
+		
+	}
+}

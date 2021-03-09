@@ -1,0 +1,30 @@
+package com.demo.inter.linkedlist;
+
+public class LinkedList {
+
+	Node head;
+
+	static class Node {
+		int data;
+		Node next;
+
+		Node(int d) {
+			data = d;
+		}
+	}
+
+	public static void main(String[] args) {
+		LinkedList lnkList = new LinkedList();
+		lnkList.head = new Node(1);
+
+		Node second = new Node(2);
+		Node third = new Node(2);
+		lnkList.head.next = second;
+		second.next = third;
+
+	}
+	
+	public static printLinkedList(lnkList) {
+		
+	}
+}

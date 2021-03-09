@@ -1,0 +1,11 @@
+package com.inter.design.decoratorpract2;
+
+public class EmailEventListner implements EventListner {
+
+	@Override
+	public void update(String message) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

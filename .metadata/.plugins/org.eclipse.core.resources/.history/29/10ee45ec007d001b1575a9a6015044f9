@@ -1,0 +1,21 @@
+package com.inter.merge;
+
+public class MergeSortPract1 {
+
+	static void sort(int arr[],int low, int high) {
+		if(low<high) {
+			int mid= (low+high)/2;
+			sort(arr,low,mid);
+			sort(arr,mid+1,high);
+			merge(arr,low,mid,high);
+		}
+	}
+
+	private static void merge(int[] arr, int low, int mid, int high) {
+		int n1 = (mid-low)+1;
+		int n2 = high-mid;
+		int L[] = new int[n1];
+		int R[] = new int[n2];
+		
+	}
+}

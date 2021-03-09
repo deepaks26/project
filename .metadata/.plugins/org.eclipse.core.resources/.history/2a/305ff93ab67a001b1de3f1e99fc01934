@@ -1,0 +1,11 @@
+package com.inter.design.decoratorpract2;
+
+public class App {
+
+	public static void main(String[] args) {
+		DataSourceDecorator ds = new CompressionDecorator(new EncryptionDecorator(new FileDataSource()));
+		ds.write("Deepak");
+		ds.read();
+		
+	}
+}

@@ -1,0 +1,8 @@
+package com.demo.inter.linkedlist;
+
+public class CircularLinkedList {
+
+	public static void main(String[] args) {
+		Node last =  null;
+	}
+}

@@ -1,0 +1,27 @@
+package com.demo.inter.bst;
+
+public class BinaryTreePract {
+
+	static class Node {
+		int data;
+		Node left;
+		Node right;
+
+		Node(int data) {
+			this.data = data;
+		}
+	}
+
+	static Node root;
+
+	static Node addRecursivly(Node root,int data) {
+		if(root==null) {
+			root = new Node(data);
+			return root;
+		}
+		
+		if(data<root.data) {
+			root.left = addRecursivly(root.left,data);
+		}
+	}
+}

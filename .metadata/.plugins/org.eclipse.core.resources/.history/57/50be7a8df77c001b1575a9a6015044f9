@@ -1,0 +1,8 @@
+package com.inter.heapsort;
+
+public class HeapSortPract1 {
+
+	void sort(int arr[]) {
+		
+	}
+}

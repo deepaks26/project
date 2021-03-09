@@ -1,0 +1,19 @@
+package com.inter.design.decoratorpract2;
+
+public class EncryptionDecorator extends DataSourceDecorator {
+
+	public EncryptionDecorator(DataSource dataSrcWrapper) {
+		super(dataSrcWrapper);
+	}
+	@Override
+	public String read() {
+		return dataSrcWrapper.read();
+	}
+
+	@Override
+	public void write(String str) {
+		dataSrcWrapper.write(str);
+		
+	}
+	
+}

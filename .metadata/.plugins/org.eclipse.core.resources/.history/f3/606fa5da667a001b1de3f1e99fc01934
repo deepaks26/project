@@ -1,0 +1,17 @@
+package com.demo.inter.stack.practice;
+
+import java.util.Stack;
+
+public class SortStackUsingRecursionPract1 {
+
+	static Stack<Integer> stack =  new Stack<>();
+	
+	static void  sort() {
+		if(stack.isEmpty()) {
+			return;
+		}
+		int d = stack.pop();
+		sort();
+		merge(d);
+	}
+}

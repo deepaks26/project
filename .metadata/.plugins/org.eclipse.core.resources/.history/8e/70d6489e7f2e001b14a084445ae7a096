@@ -1,0 +1,16 @@
+package com.inter.immute;
+
+import java.util.Map;
+
+public final class CustomImmutable {
+
+	private final int id;
+	private final  Map<String,String> data;
+	
+	public CustomImmutable(int id, Map<String, String> data) {
+		this.id = id;
+		this.data = data;
+	}
+	
+	
+}

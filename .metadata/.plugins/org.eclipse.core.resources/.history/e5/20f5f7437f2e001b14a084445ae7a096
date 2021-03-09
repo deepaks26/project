@@ -1,0 +1,9 @@
+package com.inter.immute;
+
+public final class CustomImmutable {
+
+	private final int id;
+	private Map<String,String> data;
+	
+	
+}

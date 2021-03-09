@@ -1,0 +1,11 @@
+package com.inter.design.visitor2;
+
+public class Book implements Visitable {
+
+	@Override
+	public int accept() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

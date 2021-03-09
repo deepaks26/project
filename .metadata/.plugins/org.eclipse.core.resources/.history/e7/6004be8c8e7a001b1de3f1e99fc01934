@@ -1,0 +1,14 @@
+package com.demo.inter.queue;
+
+public class LRUCacheWithO1Pract {
+
+	class Node{
+		int key;
+		int value;
+		Node next;
+		Node prev;
+	}
+	
+	Node head;
+	Node tail;
+}

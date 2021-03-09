@@ -1,0 +1,19 @@
+package com.inter.blockqueu;
+
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
+
+public class BlockQuApp {
+
+	public static void main(String[] args) {
+		BlockingQueue<Integer> qu = new LinkedBlockingQueue<Integer>();
+		Producer pd = new Producer(qu);
+		Consumer cn = new Consumer(qu);
+		Thread t1 = new Thread(pd);
+		Thread t2 = new Thread(cn);
+		t1.start();
+		t2.start();
+		j
+		
+	}
+}

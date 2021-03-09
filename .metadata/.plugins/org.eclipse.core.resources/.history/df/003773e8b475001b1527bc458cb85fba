@@ -1,0 +1,17 @@
+package com.inter.design.visitor2;
+
+public class VisitorImpl implements Visitor {
+
+	int totalPrice;
+	
+	@Override
+	public int visit(Book book) {
+		return totalPrice+ book.N*book.price;
+	}
+
+	@Override
+	public int visit(CD cd) {
+		return totalPrice+ cd.N*cd.price;
+	}
+
+}

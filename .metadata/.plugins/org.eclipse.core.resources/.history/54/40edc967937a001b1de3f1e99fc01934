@@ -1,0 +1,32 @@
+package com.demo.inter.bst;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ReplaceWithPreAndSucBSTPract1 {
+
+	static class Node {
+		int data;
+		Node left;
+		Node right;
+
+		Node(int data) {
+			this.data = data;
+		}
+	}
+	
+	
+	void replace(Node root) {
+		List<Integer> list   = new ArrayList<Integer>();
+		collectInord(root,list);
+	}
+
+	private void collectInord(Node root, List<Integer> list) {
+		if(root == null) {
+			return ;
+		}
+		collectInord(root.left,list);
+		list.add(root.data);
+		collectInord(root.right, list);
+	}
+}

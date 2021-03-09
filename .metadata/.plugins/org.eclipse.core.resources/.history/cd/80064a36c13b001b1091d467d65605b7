@@ -1,0 +1,15 @@
+package com.inter.arrayiinv;
+
+import java.util.Scanner;
+
+public class ArrayLInversion {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int arr[] = new int[5];
+		for(int i1=0;i1<1;i1++){
+			arr[i1] = sc.nextInt();
+		}
+		System.out.println(arr);
+	}
+}

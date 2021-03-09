@@ -1,0 +1,21 @@
+package com.inter.design.decorator;
+
+public class ExtraCheese extends Decorator {
+
+	Pizza pizza;
+	
+	private ExtraCheese(Pizza pizza) {
+		this.pizza = pizza;
+	}
+
+	@Override
+	public String getDescription() {
+		return pizza.getDesc()+"ExtraCheese";
+	}
+
+	@Override
+	public int getCost() {
+		return 80+pizza.getCost();
+	}
+
+}

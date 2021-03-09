@@ -1,0 +1,7 @@
+package com.inter.design.visitor;
+
+public class ClienApp {
+public static void main(String[] args) {
+	
+}
+}

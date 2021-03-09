@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.inter.insertionsort.InsertionSert&apos; to &apos;InsertionSort&apos;&#x0D;&#x0A;- Original project: &apos;SortAndSearch&apos;&#x0D;&#x0A;- Original element: &apos;com.inter.insertionsort.InsertionSert&apos;&#x0D;&#x0A;- Renamed element: &apos;com.inter.insertionsort.InsertionSort&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InsertionSert&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.inter.insertionsort{InsertionSert.java[InsertionSert" matchStrategy="1" name="InsertionSort" qualified="false" references="true" similarDeclarations="false" stamp="1607445763136" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FindPairWithGivenSum.java&apos; to &apos;IntPractice/src/com.inter.codepract&apos;&#x0D;&#x0A;- Original project: &apos;SortAndSearch&apos;&#x0D;&#x0A;- Destination element: &apos;IntPractice/src/com.inter.codepract&apos;&#x0D;&#x0A;- Original element: &apos;com.inter.merge.FindPairWithGivenSum.java&apos;" description="Copy compilation unit" destination="=IntPractice/src&lt;com.inter.codepract" element1="/src&lt;com.inter.merge{FindPairWithGivenSum.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1612296994029" units="1" version="1.0"/>
+</session>

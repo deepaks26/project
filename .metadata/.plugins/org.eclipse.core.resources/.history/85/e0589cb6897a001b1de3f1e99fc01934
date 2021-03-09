@@ -1,0 +1,17 @@
+package com.demo.inter.queue;
+
+import java.util.Stack;
+
+public class QueueUsingSingleStackPract1 {
+
+	Stack<Integer> stack = new Stack();
+	
+	int  deQu() {
+		if(stack.size()==1) {
+			return stack.pop();
+		}
+		int data = stack.pop();
+		deQu();
+		stack.push(data);
+	}
+}

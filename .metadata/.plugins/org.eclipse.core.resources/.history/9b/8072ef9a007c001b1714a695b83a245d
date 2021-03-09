@@ -1,0 +1,17 @@
+package com.inter.design.decoratorpract2;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		EventManager event = new EventManager();
+		EventListner eventList = new EmailEventListner();
+		event.subscribe("READ", eventList);
+		AbstractDataSourceFactory fact = new DataSoruceFactoryProvider().getFactory("AWS");
+		DataSourceDecorator ds = new CompressionDecorator(new EncryptionDecorator(fact.getDataSource()));
+		ds.write("Deepak");
+		System.out.println(ds.read());
+		
+		
+	}
+}

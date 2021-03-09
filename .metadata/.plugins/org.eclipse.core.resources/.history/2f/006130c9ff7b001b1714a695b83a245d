@@ -1,0 +1,19 @@
+package com.inter.design.decoratorpract2;
+
+public class OracleDataSource implements DataSource {
+
+	EventManager event;
+	
+	
+	@Override
+	public String read() {
+		return "reading data from oracle datasource";
+	}
+
+	@Override
+	public void write(String str) {
+		System.out.println("writing  into oracle data source -> "+ str);
+		
+	}
+
+}

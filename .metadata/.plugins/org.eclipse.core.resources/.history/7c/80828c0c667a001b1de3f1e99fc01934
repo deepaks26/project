@@ -1,0 +1,11 @@
+package com.demo.inter.stack.practice;
+
+import java.util.Stack;
+
+public class ReverseStackUsingRecursionPract1 {
+
+	Stack<Integer> st = new Stack<>();
+	static void rev() {
+	
+	}
+}

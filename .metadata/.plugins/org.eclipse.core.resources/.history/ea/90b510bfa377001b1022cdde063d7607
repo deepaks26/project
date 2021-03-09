@@ -1,0 +1,27 @@
+package com.demo.inter.bst;
+
+public class FindNthNodeInTreePract {
+
+	static class Node{
+		int data;
+		Node left;
+		Node right;
+	}
+	static int count=0;
+	static int findNthNode(Node root,int N) {
+		if(root==null) {
+			return -1;
+		}
+		
+		if(count<=N) {
+			findNthNode(root.left,N);
+			count++;
+			if(count==N) {
+				System.out.println();
+			}
+			findNthNode(root.right,N);
+		}
+	}
+}
+
+

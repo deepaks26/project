@@ -1,0 +1,10 @@
+package com.demo.inter.lambda;
+
+public class PrintApp {
+
+	public static void main(String[] args) {
+
+		Printer<String> print = (a) -> System.out.print(a);
+	}
+
+}

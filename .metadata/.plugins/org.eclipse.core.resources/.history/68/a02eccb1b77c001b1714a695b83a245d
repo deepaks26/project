@@ -1,0 +1,17 @@
+package com.inter.quick;
+
+public class QS {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	void sort(int arr[],int low,int high) {
+	
+		if(low<high) {
+			int pi = partition(arr,low,high);
+			sort(arr,low,pi-1);
+			sort(arr,pi+1,high);
+		}
+	}
+}

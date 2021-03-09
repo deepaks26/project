@@ -1,0 +1,19 @@
+package com.inter.design.visitorpract1;
+
+public class VisitorImpl implements Visitor {
+
+	int finalPrice;
+	
+	@Override
+	public int visit(Book book) {
+		finalPrice = finalPrice+book.price;
+		return finalPrice;
+	}
+
+	@Override
+	public int visit(CD cd) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

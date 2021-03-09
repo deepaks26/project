@@ -1,0 +1,11 @@
+package com.inter.design.visitorpract1;
+
+public class CD implements Vistable {
+
+	@Override
+	public int accpet(Visitor vis) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

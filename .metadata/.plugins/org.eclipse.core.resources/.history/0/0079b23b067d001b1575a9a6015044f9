@@ -1,0 +1,18 @@
+package com.inter.quick;
+
+public class QuickSortPract3 {
+
+ static void sort(int arr[],int low,int high) {
+	 if(low<high) {
+		 int part = partition(arr,low,high);
+		 sort(arr, low, part-1);
+		 sort(arr, part+1, high);
+		 
+	 }
+ }
+
+private static int partition(int[] arr, int low, int high) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+}

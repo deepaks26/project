@@ -1,0 +1,10 @@
+package com.inter.design.decoratorpract2;
+
+public class CompressionDecorator extends DataSourceDecorator {
+
+	public CompressionDecorator(DataSource dataSrcWrapper) {
+		super(dataSrcWrapper);
+		// TODO Auto-generated constructor stub
+	}
+
+}

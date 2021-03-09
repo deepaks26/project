@@ -1,0 +1,20 @@
+package com.demo.inter.lambda;
+
+public class PrintApp {
+
+	public static void main(String[] args) {
+
+		Printer<String> print = (a) -> {
+			System.out.println(a);
+		};
+		String s = "abc";
+		print.print(s);
+		print.printDef(s);
+		
+		int a[][] = new int[0][0];
+		a[0][0] = 1;
+		System.out.println(a.length);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.inter.design.decoratorpract2;
+
+public class AWSDataSource implements DataSource {
+
+
+	@Override
+	public String read() {
+		return "reading data from oracle datasource";
+	}
+
+	@Override
+	public void write(String str) {
+		System.out.println("writing  into oracle data source -> "+ str);
+		
+	}
+}

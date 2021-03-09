@@ -1,0 +1,22 @@
+package com.inter.design.decorator;
+
+public class ExtraPaneer extends Decorator {
+
+	Pizza pizza;
+	
+	private ExtraPaneer(Pizza pizza) {
+		this.pizza = pizza;
+	}
+
+	@Override
+	public String getDescription() {
+		return pizza.getDesc()+"ExtraPaneer";
+	}
+
+	@Override
+	public int getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

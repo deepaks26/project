@@ -1,0 +1,21 @@
+package com.demo.inter.linkedlist.fromtechidelite;
+
+public class InsertAtSortedPosition {
+
+	static class Node{
+		int data;
+		Node next;
+		Node(int data){
+			this.data = data;
+		}
+	}
+	Node head;
+	
+	static void sortAsInserted(Node head,int data) {
+		while(head.next != null) {
+			if(head.next.data>data) {
+				
+			}
+		}
+	}
+}

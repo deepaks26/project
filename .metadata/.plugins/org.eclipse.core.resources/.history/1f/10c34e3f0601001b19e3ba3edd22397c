@@ -1,0 +1,15 @@
+package com.inter.design.decorator;
+
+public class VegPizza extends Pizza {
+
+	@Override
+	public int getCost() {
+		// TODO Auto-generated method stub
+		return 200;
+	}
+
+	private VegPizza() {
+		desc = "Veg Pizza";
+	}
+
+}

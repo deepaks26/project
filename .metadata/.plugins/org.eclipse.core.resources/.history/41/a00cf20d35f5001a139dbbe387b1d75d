@@ -1,0 +1,8 @@
+package com.demo.inter.linkedlist;
+
+public class LinkedListInsertAtFirstNode {
+	
+public static void main(String[] args) {
+	
+}
+}

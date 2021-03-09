@@ -1,0 +1,12 @@
+package com.demo.inter.linkedlist.fromtechidelite;
+
+public class SplitLinkedListTwoHalves {
+
+	static class Node{
+		int data;
+		Node next;
+		Node(int data){
+			this.data = data;
+		}
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;FindElementsArrayGreaterThanRightElement.java&apos; to &apos;demo-int-ds-algo/src/main/java/com.demo.inter.stack.practice&apos;&#x0D;&#x0A;- Original project: &apos;demo-int-ds-algo&apos;&#x0D;&#x0A;- Destination element: &apos;demo-int-ds-algo/src/main/java/com.demo.inter.stack.practice&apos;&#x0D;&#x0A;- Original element: &apos;com.demo.inter.stack.FindElementsArrayGreaterThanRightElement.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.demo.inter.stack.practice" element1="/src\/main\/java&lt;com.demo.inter.stack{FindElementsArrayGreaterThanRightElement.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1614594851553" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+package com.inter.design.abstractfactory;
+
+public class AWSCloudStorage implements CloudStorage {
+
+	@Override
+	public void write(String str) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String read() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

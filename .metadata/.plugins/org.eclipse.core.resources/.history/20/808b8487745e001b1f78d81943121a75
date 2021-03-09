@@ -1,0 +1,12 @@
+package com.demo.inter.queue;
+
+import java.util.Stack;
+
+public class QueueUsingSingleStack {
+
+	Stack<Integer> st  = new Stack<Integer>();
+	
+	int dequeue(){
+		
+	}
+}

@@ -1,0 +1,44 @@
+package com.demo.inter.queue;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class LRUCacheWithO1Pract {
+
+	class Node{
+		int key;
+		int value;
+		Node next;
+		Node prev;
+		
+		Node(int  key, int value) {
+			this.key = key;
+			this.value = value;
+		}
+	}
+	
+	Node head;
+	Node tail;
+	Map<Integer,Node> map = new HashMap<>();
+	int capacity;
+	int count;
+	
+	public LRUCacheWithO1Pract(int capa) {
+		this.capacity= capa;
+		head = new Node(0,0);
+		tail = new Node(0,0);
+		head.next = tail;
+		tail.prev = head;
+	}
+	void deleteNode(Node temp){
+		temp.prev.next = temp.next;
+		temp.next.prev = temp.prev;
+	}
+	int get(int key) {
+		if(map.get(key)!= null) {
+			Node value = map.get(key);
+			deleteNode(value);
+			addToHead(value);
+		}
+	}
+}

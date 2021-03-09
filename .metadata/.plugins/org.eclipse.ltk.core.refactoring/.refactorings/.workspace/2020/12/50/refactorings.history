@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RabbitMq&apos; to &apos;Messaging&apos;" description="Rename resource &apos;RabbitMq&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/RabbitMq" name="Messaging" stamp="1607497125409" updateReferences="true"/>
+</session>

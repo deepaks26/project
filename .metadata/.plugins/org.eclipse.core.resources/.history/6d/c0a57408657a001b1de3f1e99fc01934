@@ -1,0 +1,13 @@
+package com.demo.inter.stack.practice;
+
+import java.util.Stack;
+
+public class ReverseNumberUsingStackPract1 {
+
+	int reverse(int num) {
+		Stack<Integer> st = new Stack();
+		while(num != 0) {
+			st.push(st%10);
+		}
+	}
+}

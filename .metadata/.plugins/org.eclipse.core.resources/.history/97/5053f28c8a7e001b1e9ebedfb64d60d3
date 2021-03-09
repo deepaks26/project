@@ -1,0 +1,11 @@
+package com.inter.design.chainofresppract2;
+
+public abstract class AbstractLogger {
+
+	AbstractLogger nextLogger;
+	int level;
+	
+	public void log(int level,String message) {
+		
+	}
+}

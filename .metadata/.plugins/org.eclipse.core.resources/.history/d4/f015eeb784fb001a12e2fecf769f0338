@@ -1,0 +1,9 @@
+package com.demo.inter.lambda;
+
+@FunctionalInterface
+public interface Printer<T> {
+
+	void print(String s);
+	
+	default printDef(String s);
+}

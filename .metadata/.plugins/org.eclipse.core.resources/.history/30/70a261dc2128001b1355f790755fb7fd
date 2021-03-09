@@ -1,0 +1,64 @@
+package com.demo.inter.stack;
+
+public class StackUsingLinkedList {
+
+	public StackNode root;
+
+	public static void main(String[] args) {
+		StackUsingLinkedList stack = new StackUsingLinkedList();
+		stack.push(1);
+		stack.push(2);
+		stack.push(3);
+		stack.push(4);
+		stack.printStack(stack);
+	}
+
+	public void push(int data) {
+		StackNode newNode = new StackNode(data);
+
+		if (null == root) {
+			root = newNode;
+		} else {
+			StackNode temp = root;
+			root = newNode;
+			root.next = temp;
+		}
+	}
+
+	public Integer pop() {
+		if (null == root) {
+			System.out.println("empty stack");
+			return 0;
+		} else {
+			int popped = root.data;
+			root.next = root;
+			return popped;
+		}
+	}
+	public void printStack(StackUsingLinkedList stack) {
+		StackNode sn  =  stack.root;
+		while(sn != null) {
+			System.out.println(sn.data);
+			sn = sn.next;
+		}
+	}
+	public boolean isEmpty() {
+		if(root==null) {
+			return true;
+		}else {
+			return false;
+		}
+		
+	}
+	public void reverse() {
+		if(this.isEmpty()) {
+			return;
+		}else {
+			int top = this.pop();
+			this.reverse();
+			this.push(top);
+		}
+	}
+	
+	
+}

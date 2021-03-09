@@ -1,0 +1,15 @@
+package com.inter.design.decoratorpract2;
+
+public class OracleDataSource implements DataSource {
+
+	@Override
+	public String read() {
+		return null;
+	}
+
+	@Override
+	public void write(String str) {
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.demo.inter.linkedlist.fromtechidelite;
+
+public class SortLinkedList {
+
+	static class Node{
+		int data;
+		Node next;
+		Node(int data){
+			this.data = data;
+		}
+	}
+	
+	Node sortLinkedList(Node head){
+		Node result = null;
+		 Node temp = head;
+		while(temp != null) {
+			insertAtSorted(result,temp.data);
+			temp = temp.next;
+		}
+	}
+}

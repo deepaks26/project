@@ -1,0 +1,15 @@
+package com.inter.design.builder;
+
+public class UserPract {
+
+	int age;
+	int email;
+	int name;
+	public UserPract(int age, int email, int name) {
+		this.age = age;
+		this.email = email;
+		this.name = name;
+	}
+	
+	
+}

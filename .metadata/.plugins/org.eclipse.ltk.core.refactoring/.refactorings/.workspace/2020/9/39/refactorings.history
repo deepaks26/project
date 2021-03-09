@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;demo-int&apos; to &apos;demo-int-ds-algo&apos;" description="Rename resource &apos;demo-int&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/demo-int" name="demo-int-ds-algo" stamp="1600629907741" updateReferences="true"/>
+</session>

@@ -1,0 +1,5 @@
+package com.inter.design.factorypract1;
+
+public interface CloudStorage {
+
+}

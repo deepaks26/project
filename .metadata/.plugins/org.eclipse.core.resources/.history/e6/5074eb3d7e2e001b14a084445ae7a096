@@ -1,0 +1,14 @@
+package com.inter.immute;
+
+public class Child1 extends Parent1 {
+
+	public static void main(String[] args) {
+		final StringBuffer sb = new StringBuffer("abc");
+		sb.append("cde");
+		System.out.println(sb.toString());
+	}
+	
+	final void m1() {
+		
+	}
+}

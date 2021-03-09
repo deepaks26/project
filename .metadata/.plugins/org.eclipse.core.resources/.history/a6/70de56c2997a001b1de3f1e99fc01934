@@ -1,0 +1,8 @@
+package com.inter.binarysearch;
+
+public class BinSearchPract1 {
+
+	int search(int arr[],int low,int high) {
+		
+	}
+}

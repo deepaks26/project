@@ -1,0 +1,8 @@
+package com.demo.inter.stack.practice;
+
+import java.util.Stack;
+
+public class EvaluatePostFixExpression {
+
+	static Stack<Integer> st = new Stack();
+}

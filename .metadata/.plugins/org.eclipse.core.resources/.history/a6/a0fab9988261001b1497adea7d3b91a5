@@ -1,0 +1,39 @@
+package com.demo.inter.queuepractice;
+
+import java.util.function.Predicate;
+
+public class CircularQueuUsingLinkedList {
+
+	static class Node{
+		int data;
+		Node next;
+		
+		Node(int data){
+			this.data = data;
+		}
+	}
+	Node front;
+	Node rear;
+	
+	void enqueu(int data) {
+		Node newNode = new Node(data);
+		if(rear == null) {
+			rear = front = newNode;
+		}else {
+			rear.next = newNode;
+			rear = newNode;
+			rear.next = front;
+		}
+	}
+	
+	int deQuque() {
+		int data = front.data;
+		front = front.next;
+		rear.next = front;
+		return data;
+	}
+	
+	public static void main(String[] args) {
+	        Predicate<String> prd =   (str) -> str.startsWith("aa");
+	}
+}

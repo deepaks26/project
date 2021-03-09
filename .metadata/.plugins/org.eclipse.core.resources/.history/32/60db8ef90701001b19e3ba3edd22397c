@@ -1,0 +1,12 @@
+package com.inter.design.decorator;
+
+public class DecApp {
+	public static void main(String[] args) {
+
+		Pizza paneerPizza = new PaneerPizza();
+		 System.out.println( paneerPizza.getDesc() + 
+                 " Cost :" + paneerPizza.getCost()); 
+		 paneerPizza = new ExtraPaneer(paneerPizza);
+
+	}
+}

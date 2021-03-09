@@ -1,0 +1,20 @@
+package com.demo.inter.lambda;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class PrintApp {
+
+	public static void main(String[] args) {
+
+		/*
+		 * Printer<String> print = (a) -> { System.out.println(a); }; String s = "abc";
+		 * print.print(s); print.printDef(s);
+		 */
+		
+		List<String> list = Arrays.asList("1","2","1");
+		list.removeIf(l -> l.equals("1"));
+		System.out.println(list);
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.inter.design.factory;
+
+import com.inter.design.factorypract1.CloudStorage;
+
+public class App {
+
+	public static void main(String[] args) {
+		TierFactory fact =  new TierFactory();
+		CloudStorage store = fact.getTier("AWS");
+		store.write("ABC");
+		System.out.println(store.);
+	}
+}

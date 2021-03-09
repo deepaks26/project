@@ -1,0 +1,34 @@
+package com.inter.design.builder;
+
+public class UserPract {
+
+	int age;
+	int email;
+	int name;
+	public UserPract(UserBuilder user) {
+		this.age = user.age;
+		this.email = user.email;
+		this.name = user.name;
+	}
+	
+	static class UserBuilder{
+		int age;
+		int email;
+		int name;
+		
+		UserBuilder(int age){
+			this.age =  age;
+		}
+		
+		UserBuilder age(int age) {
+			this.age = age;
+			return this;
+		}
+		
+		UserBuilder email(String email) {
+			this.email = email;
+			return this;
+		}
+	}
+	
+}

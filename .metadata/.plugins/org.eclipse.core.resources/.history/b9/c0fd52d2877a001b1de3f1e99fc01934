@@ -1,0 +1,12 @@
+package com.demo.inter.queue;
+
+public class QueueUsingArrayPract1 {
+
+	int arr[];
+	int size;
+	int capacity;
+	int rear;
+	int front;
+	
+	
+}

@@ -1,0 +1,14 @@
+package com.inter.design.decoratorpract2;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class DataSoruceFactoryProvider {
+
+	static Map<String,AbstractDataSourceFactory> map = new HashMap<String,AbstractDataSourceFactory>();
+	
+	static {
+		map.put("ORACLE", new OracleDataSourceFactory());
+		map.put("AWS", new AWSDataSourceFactory());
+	}
+}

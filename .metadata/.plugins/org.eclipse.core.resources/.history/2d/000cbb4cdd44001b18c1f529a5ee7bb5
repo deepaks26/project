@@ -1,0 +1,26 @@
+package com.demo.inter.lambda;
+
+public class Operation {
+
+	@FunctionalInterface
+	interface DoOperate{
+		int doJob(int a, int b);
+	}
+	
+	@FunctionalInterface
+	interface Result{
+		void print(int whatToPrint);
+	}
+	public static void main(String[] args) {
+		DoOperate optAdd = (int a, int b) -> a+b;
+		DoOperate optMultiply = (int a, int b) -> a*b;
+		Result printRes = (a) -> {
+			System.out.println(a);
+		};
+		printRes.print(optAdd.doJob(2, 3));
+		
+		printRes.print(optMultiply.doJob(2, 3));
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+package com.inter.design.factorypract1;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.function.Supplier;
+
+public class Factory {
+
+	static Map<String,Supplier<? extends CloudStorage>> map = new HashMap();
+	
+	static {
+		
+	}
+}

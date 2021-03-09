@@ -1,0 +1,11 @@
+package com.inter.design.visitor2;
+
+public class CD implements Visitable{
+
+	@Override
+	public int accept(Visitor vis) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

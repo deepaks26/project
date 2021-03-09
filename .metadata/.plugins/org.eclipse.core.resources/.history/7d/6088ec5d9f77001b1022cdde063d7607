@@ -1,0 +1,74 @@
+package com.demo.inter.bst;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class BinaryTreePract {
+
+	static class Node {
+		int data;
+		Node left;
+		Node right;
+
+		Node(int data) {
+			this.data = data;
+		}
+	}
+
+	static Node root;
+
+	static Node addRecursivly(Node root, int data) {
+		if (root == null) {
+			root = new Node(data);
+			return root;
+		}
+
+		if (data < root.data) {
+			root.left = addRecursivly(root.left, data);
+		} else {
+			root.right = addRecursivly(root.right, data);
+		}
+		return root;
+	}
+	
+	static void inorder(Node root) {
+		if(root==null) {
+			return;
+		}
+		inorder(root.left);
+		System.out.println(root.data);
+		inorder(root.right);
+	}
+	static void preorder(Node root) {
+		if(root==null) {
+			return;
+		}
+		System.out.println(root.data);
+		inorder(root.left);
+		inorder(root.right);
+	}
+	static void postorder(Node root) {
+		if(root==null) {
+			return;
+		}
+		inorder(root.left);
+		inorder(root.right);
+		System.out.println(root.data);
+	}
+	
+	static void bfsTraverse(Node root) {
+		Queue<Node> qu = new LinkedList<Node>();
+		qu.add(root);
+		while(qu.isEmpty()) {
+			System.out.println(qu.remove());
+			if(root.left != null) {
+				qu.add(root.left.data);
+				root = root.left;
+			}
+			if(root.right != null) {
+				qu.add(root.right.data);
+				root = root.right;
+			}
+		}
+	}
+}

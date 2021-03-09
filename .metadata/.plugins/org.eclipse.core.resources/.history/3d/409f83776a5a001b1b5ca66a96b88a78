@@ -1,0 +1,13 @@
+package com.inter.design.visitor;
+
+public class Book {
+
+	int noOfBooks;
+	int price;
+	
+	public Book(int noOfBooks,int price) {
+		this.noOfBooks = noOfBooks;
+		this.price = price;
+		
+	}
+}

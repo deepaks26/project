@@ -1,0 +1,18 @@
+package com.demo.inter.stack;
+
+public class StackUsingArray {
+	int maxLength = 10;
+	int top;
+	int stackArr[] = new int[maxLength];
+
+	public StackUsingArray() {
+		top = -1;
+	}
+	
+	public static push(int elem) {
+		
+	}
+	public static void main(String[] args) {
+
+	}
+}

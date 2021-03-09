@@ -1,0 +1,13 @@
+package com.inter.design.decoratorpract2;
+
+public class App {
+
+	public static void main(String[] args) {
+		AbstractDataSourceFactory fact = new DataSoruceFactoryProvider().getFactory("AWS");
+		DataSource ds = fact.getDataSource();
+		DataSourceDecorator ds = new CompressionDecorator(new EncryptionDecorator(new FileDataSource()));
+		ds.write("Deepak");
+		System.out.println(ds.read());
+		
+	}
+}

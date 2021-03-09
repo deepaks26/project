@@ -1,0 +1,42 @@
+package com.inter.immute;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.function.BiConsumer;
+
+public final class CustomImmutable {
+
+	private final int id;
+	private final Map<String, String> data;
+
+	public CustomImmutable(int id, Map<String, String> data) {
+		this.id = id;
+		Map<String, String> tempMap = new HashMap<String, String>();
+		BiConsumer<String, String> biC = (k, v) -> {
+			tempMap.put(k, v);
+		};
+		data.forEach(biC);
+
+		this.data = data;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public Map<String, String> getData() {
+		Map<String, String> tempMap = new HashMap<>();
+		for (Map.Entry<String, String> entry : this.data.entrySet()) {
+			tempMap.put(entry.getKey(), entry.getValue());
+		}
+		return tempMap;
+	}
+
+	public static void main(String[] args) {
+		Map<String, String> map = new HashMap<>();
+        map.put("1", "first");
+        map.put("2", "second");
+		CustomImmutable ci = new CustomImmutable(1, map);
+		
+	}
+}

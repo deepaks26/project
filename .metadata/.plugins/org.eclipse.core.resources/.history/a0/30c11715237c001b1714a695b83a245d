@@ -1,0 +1,14 @@
+package com.inter.design.adapterpract2;
+
+public class RoundHole {
+
+	int radius;
+	
+	RoundHole(int radius){
+		this.radius = radius;
+	}
+	
+	boolean isFit(RoundPeg peg) {
+		return radius <=peg.radius;
+	}
+}

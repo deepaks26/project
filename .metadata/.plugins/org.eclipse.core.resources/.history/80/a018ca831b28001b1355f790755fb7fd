@@ -1,0 +1,33 @@
+package com.demo.inter.stack;
+
+public class StackUsingLinkedList {
+
+	public StackNode root;
+	public static void main(String[] args) {
+		
+	}
+	
+	public void push(int data) {
+		StackNode newNode= new StackNode(data);
+		
+		if(null==root) {
+			root = newNode;
+		}else {
+			StackNode temp = root;
+			root = newNode;
+			root.next = temp;
+		}
+	}
+	public void pop(int data) {
+		StackNode newNode= new StackNode(data);
+		
+		if(null==root) {
+			System.out.println("empty stack");
+		}else {
+			StackNode temp = root;
+			root = newNode;
+			root.next = temp;
+		}
+	}
+}
+

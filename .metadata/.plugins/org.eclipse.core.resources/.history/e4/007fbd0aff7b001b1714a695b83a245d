@@ -1,0 +1,13 @@
+package com.inter.design.decoratorpract2;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class EventManager {
+
+	Map<String,List<EventListner>> map = new HashMap();
+	
+	
+	
+}

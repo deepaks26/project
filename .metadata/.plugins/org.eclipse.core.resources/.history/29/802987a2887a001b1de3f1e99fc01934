@@ -1,0 +1,12 @@
+package com.demo.inter.queue;
+
+public class QueueUsingLinkedListPract1 {
+
+	static class Node{
+		int data;
+		Node next;
+		Node(int data){
+			this.data = data;
+		}
+	}
+}

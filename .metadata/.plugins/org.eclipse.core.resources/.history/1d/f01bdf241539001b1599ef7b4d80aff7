@@ -1,0 +1,10 @@
+package com.inter.blockqueu;
+
+import java.util.concurrent.BlockingQueue;
+
+public class BlockQuApp {
+
+	public static void main(String[] args) {
+		BlockingQueue<Integer> qu = new LinkedBlockingQueque<Integer>();
+	}
+}

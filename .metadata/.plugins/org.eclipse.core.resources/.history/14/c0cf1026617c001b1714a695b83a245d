@@ -1,0 +1,19 @@
+package com.inter.design.chainofresppract1;
+
+public abstract class AbstractLogger {
+
+	AbstractLogger nextLogger;
+	protected int level;
+	
+	public static int INFO = 1;
+	public static int DEBUG = 2;
+	public static int ERROR = 3;
+	void setNextLogger(AbstractLogger nextLogger) {
+		this.nextLogger= nextLogger;
+	}
+	
+	void log(String msg) {
+		if(this.level==)
+	}
+	
+}

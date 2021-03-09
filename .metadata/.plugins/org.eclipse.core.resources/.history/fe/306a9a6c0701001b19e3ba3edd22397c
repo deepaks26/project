@@ -1,0 +1,7 @@
+package com.inter.design.decorator;
+
+public class DecApp {
+	public static void main(String[] args) {
+
+	}
+}

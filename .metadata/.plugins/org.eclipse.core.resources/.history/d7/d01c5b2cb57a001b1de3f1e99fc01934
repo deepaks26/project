@@ -1,0 +1,17 @@
+package com.inter.design.decoratorpract2;
+
+public class EncryptionDecorator implements DataSource {
+
+	@Override
+	public String read() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void write(String str) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

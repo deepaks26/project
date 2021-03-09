@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.strategy{RunBehaviour.java[RunBehaviour" modifiers="513" timestamp="1601653059622"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.strategy{Fighter.java[Fighter" modifiers="1025" timestamp="1601654041310"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.strategy{JumpBehaviour.java[JumpBehaviour" modifiers="513" timestamp="1601653036826"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.chainofresp{AbstractLogger.java[AbstractLogger" modifiers="1025" timestamp="1612085531472"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.bridge{Workshop.java[Workshop" modifiers="513" timestamp="1601718996171"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.bridge{Vehicle.java[Vehicle" modifiers="1025" timestamp="1601720502987"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.decoratorpract{Utilization.java[Utilization" modifiers="1025" timestamp="1612585883063"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.decoratorpract{Decorator.java[Decorator" modifiers="1025" timestamp="1612585546287"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.factorypract1{CloudStorage.java[CloudStorage" modifiers="513" timestamp="1614622538985"/>
+    <typeInfo handle="=demo-int-designpattern/C:\/Program Files\/Java\/jdk-13.0.1\/lib\/jrt-fs.jar`java.base&lt;java.io(Closeable.class[Closeable" modifiers="1537" timestamp="1575121074799"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.abstractfactory{CloudStorage.java[CloudStorage" modifiers="513" timestamp="1614624311599"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.abstractfactory{CloudStorageFactory.java[CloudStorageFactory" modifiers="513" timestamp="1614624500419"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.decoratorpract2{AbstractDataSourceFactory.java[AbstractDataSourceFactory" modifiers="513" timestamp="1614760910066"/>
+    <typeInfo handle="=demo-int-designpattern/C:\/Program Files\/Java\/jdk-13.0.1\/lib\/jrt-fs.jar`java.base&lt;java.net(DatagramSocketImplFactory.class[DatagramSocketImplFactory" modifiers="1537" timestamp="1575121074799"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.decoratorpract2{DataSource.java[DataSource" modifiers="513" timestamp="1614619927167"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.decoratorpract2{EventListner.java[EventListner" modifiers="513" timestamp="1614762338663"/>
+    <typeInfo handle="=demo-int-designpattern/C:\/Program Files\/Java\/jdk-13.0.1\/lib\/jrt-fs.jar`java.base&lt;java.util(EventListener.class[EventListener" modifiers="1537" timestamp="1575121074799"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.visitor2{Visitable.java[Visitable" modifiers="513" timestamp="1614067473080"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.visitorpract1{Vistable.java[Vistable" modifiers="513" timestamp="1614778555094"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.visitorpract1{Visitor.java[Visitor" modifiers="513" timestamp="1614778806558"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.chainofresppract1{AbstractLogger.java[AbstractLogger" modifiers="1025" timestamp="1614804505957"/>
+    <typeInfo handle="=demo-int-designpattern/src\/main\/java&lt;com.inter.design.chainofresppract2{AbstractLogger.java[AbstractLogger" modifiers="1025" timestamp="1615041981314"/>
+</typeInfoHistroy>

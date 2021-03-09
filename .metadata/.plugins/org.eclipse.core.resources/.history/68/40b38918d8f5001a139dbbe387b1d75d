@@ -1,0 +1,27 @@
+package com.demo.inter.linkedlist;
+
+public class CircularLinkedList {
+
+	public static void main(String[] args) {
+		Node last = null;
+		last = addToEmpty(last,1);
+	}
+
+	static Node addToEmpty(Node last, int data) {
+		if (last != null) {
+			return last;
+		}
+		Node temp = new Node(data);
+		last = temp;
+		last.next = last;
+		
+		return last;
+	}
+	
+	static Node addToBeggin(Node last, int data) {
+		if(last == null) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.inter.design.visitorpract1;
+
+public class VisitorImpl implements Visitor {
+
+	@Override
+	public int visit(Book book) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int visit(CD cd) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

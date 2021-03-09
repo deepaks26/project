@@ -1,0 +1,24 @@
+package com.inter.immute;
+
+public class Parent1 {
+
+	void m1() {
+		System.out.println("parent");
+	}
+
+	/*
+	 * void tests3() { System.out.println("Fest class : tests3"); }
+	 * 
+	 * static void tests3() { System.out.println("Fest class : static tests3");
+	 * //<-- gives "method tests3() is already defined in class Fest" }
+	 */
+
+	public static void main(String[] args) {
+		try {
+			throw new OutOfMemoryError();
+		} catch (Error e) {
+			System.out.println("caught");
+		}
+		System.out.println("post catch");
+	}
+}

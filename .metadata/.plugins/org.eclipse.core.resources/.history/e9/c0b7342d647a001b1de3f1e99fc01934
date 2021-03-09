@@ -1,0 +1,24 @@
+package com.demo.inter.stack.practice;
+
+public class MergeStackUsingCircularLinkedListPract1 {
+
+	static class Node{
+		int data;
+		Node prev;
+		Node next;
+		Node(int data){
+			this.data =  data;
+		}
+	}
+	
+	Node head;
+	Node tail;
+	
+	void push(int data) {
+		if(head == null) {
+			
+		}
+	}
+	
+}
+

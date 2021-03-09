@@ -1,0 +1,10 @@
+package com.inter.codepract.array;
+
+import java.util.Arrays;
+
+public class FindPairWithGivenDiff {
+
+	void findPair(int arr[]) {
+		Arrays.sort(arr);
+	}
+}

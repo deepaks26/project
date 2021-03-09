@@ -1,0 +1,16 @@
+package com.inter.immute;
+
+public class Parent1 {
+
+	static void m1() {
+		System.out.println("parent");
+	}
+
+	/*
+	 * void tests3() { System.out.println("Fest class : tests3"); }
+	 * 
+	 * static void tests3() { System.out.println("Fest class : static tests3");
+	 * //<-- gives "method tests3() is already defined in class Fest" }
+	 */
+
+}

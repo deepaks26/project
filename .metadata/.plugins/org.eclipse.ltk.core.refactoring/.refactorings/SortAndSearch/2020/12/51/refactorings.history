@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;QuickSort&apos; to &apos;com.inter.quick&apos;&#x0D;&#x0A;- Original project: &apos;SortAndSearch&apos;&#x0D;&#x0A;- Original element: &apos;SortAndSearch/src/QuickSort&apos;&#x0D;&#x0A;- Renamed element: &apos;SortAndSearch/src/com.inter.quick&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;QuickSort&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;QuickSort" name="com.inter.quick" qualified="false" references="true" stamp="1607885277838" textual="false" version="1.0"/>
+</session>

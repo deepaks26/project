@@ -1,0 +1,57 @@
+package com.demo.inter.linkedlist;
+
+public class CircularLinkedList {
+
+	public static void main(String[] args) {
+		Node last = null;
+		last = addToEmpty(last, 1);
+	}
+
+	static Node addToEmpty(Node last, int data) {
+		if (last != null) {
+			return last;
+		}
+		Node temp = new Node(data);
+		last = temp;
+		last.next = last;
+
+		return last;
+	}
+	
+	static Node addToBeggin(Node last, int data) {
+		if (last == null) {
+			return addToEmpty(last, data);
+		}
+		Node temp = new Node(2);
+		temp.data = data;
+		temp.next = last.next;
+		last.next = temp;
+		return last;
+	}
+	
+	static Node addToEnd(Node last, int data) {
+		if (last == null) {
+			return addToEmpty(last, data);
+		}
+		Node temp = new Node(2);
+		temp.data = data;
+		temp.next = 
+		temp.next = last.next;
+		last.next = temp;
+		return last;
+	}
+	
+	static Node addAfter(Node last,int newValue,int afterValue) {
+		if(last== null) {
+			return null;
+		}
+		
+		Node p = last.next;
+		do {
+			if(p.data==afterValue) {
+				
+			}
+		}while(p != last.next); 
+	}
+
+}
